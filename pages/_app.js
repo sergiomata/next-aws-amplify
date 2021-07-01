@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import config from '../aws-exports';
+import config from '../src/aws-exports';
 
 Amplify.configure({
   ...config, ssr: true
