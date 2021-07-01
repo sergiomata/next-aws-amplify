@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Post } from '../models'
 
+//resend data
+
 export default function Home() {
   const [posts, setPosts] = useState([])
 
